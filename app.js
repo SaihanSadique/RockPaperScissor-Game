@@ -22,23 +22,23 @@ function playRound() {
             }
             if (computerAction == "PAPER") {
                 ComputerWin += 1;
-                return alert("you lose!");
+                return alert("Paper beats Rock! you lose!");
             }
             if (computerAction == "SCISSORS") {
                 playerWin += 1;
-                return alert("you win!");
+                return alert("Rock beats Scissors! you win!");
             }
         case 'PAPER':
             if (computerAction == "ROCK"){
                 playerWin+=1;
-                return alert("you win!");
+                return alert("Paper beats rock! you win!");
             }
             if (computerAction == "PAPER") {
                 return alert("it's a tie!");
             }
             if (computerAction == "SCISSORS") {
                 ComputerWin+=1;
-                return alert("you lose!");
+                return alert("Scissors beat Paper! you lose!");
             }
         case 'SCISSORS':
             if (computerAction == "ROCK") {
